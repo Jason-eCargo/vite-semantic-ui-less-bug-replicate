@@ -36,26 +36,6 @@ npm clean-install
 npm run build
 ```
 
-```
-../assets/fonts/icons.eot referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/icons.eot?#iefix referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/outline-icons.eot referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/outline-icons.eot?#iefix referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/brand-icons.eot referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/brand-icons.eot?#iefix referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/icons.woff referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/outline-icons.woff2 referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/brand-icons.woff2 referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/icons.ttf referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/outline-icons.woff referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/brand-icons.woff referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/icons.svg#icons referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/outline-icons.ttf referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/brand-icons.ttf referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/outline-icons.svg#icons referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-../assets/fonts/brand-icons.svg#icons referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
-```
-
 ## Result
 The fonts icons, brand-icons and outline-icons does not appear in dist/assets and the icons in App.jsx `<i class="icon ..."></i>` will not render because it is missing the font.
 

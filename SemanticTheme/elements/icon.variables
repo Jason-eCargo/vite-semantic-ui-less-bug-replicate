@@ -2,6 +2,7 @@
    Icon Variables
 --------------------*/
 
+/* The following works in 3.2.2 only.
 @fontPath  : "../assets/fonts";
 
 @src:
@@ -9,4 +10,13 @@
   url("@{fontPath}/@{fontName}.woff") format('woff'),
   url("@{fontPath}/@{fontName}.ttf") format('truetype'),
   url("@{fontPath}/@{fontName}.svg#icons") format('svg')
+;
+*/
+
+/* Only the "icons" font is added to dist/assets and not "outline-icons" or "brand-icons". */
+@src:
+  url("../assets/fonts/@{fontName}.eot?#iefix") format('embedded-opentype'),
+  url("../assets/fonts/@{fontName}.woff") format('woff'),
+  url("../assets/fonts/@{fontName}.ttf") format('truetype'),
+  url("../assets/fonts/@{fontName}.svg#icons") format('svg')
 ;
