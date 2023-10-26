@@ -1,0 +1,41 @@
+/* Webfont: LatoLatin-Bold */@font-face {
+    font-family: 'Lato';
+    src: url('./LatoLatin-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('./LatoLatin-Bold.woff') format('woff'), /* Modern Browsers */
+         url('./LatoLatin-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: LatoLatin-BoldItalic */@font-face {
+    font-family: 'Lato';
+    src: url('./LatoLatin-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('./LatoLatin-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('./LatoLatin-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: LatoLatin-Italic */@font-face {
+    font-family: 'Lato';
+    src: url('./LatoLatin-Italic.woff2') format('woff2'), /* Modern Browsers */
+         url('./LatoLatin-Italic.woff') format('woff'), /* Modern Browsers */
+         url('./LatoLatin-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: LatoLatin-Regular */@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'),
+         local('Lato-Regular'),
+         url('./LatoLatin-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('./LatoLatin-Regular.woff') format('woff'), /* Modern Browsers */
+         url('./LatoLatin-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

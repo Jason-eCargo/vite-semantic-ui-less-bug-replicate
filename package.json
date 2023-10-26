@@ -1,0 +1,31 @@
+{
+  "name": "repro2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "// devDependencies: less": "Less is stuck on version 2.7.3 because newer versions fails to compile semantic-ui-less which was last released in Oct 2018.",
+  "// devDependencies: vite": "Starting with vite 3.2.3 onwards building for production would not add the icons, outline-icons and brand-icons fonts into the dist/assets directory.",
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "less": "^2.7.3",
+    "less-plugin-npm-import": "^2.1.0",
+    "semantic-ui-less": "^2.5.0",
+    "vite": "^3.2.2"
+  }
+}
