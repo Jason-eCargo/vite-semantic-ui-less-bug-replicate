@@ -20,17 +20,23 @@ Currently, two official plugins are available:
 1. Added some semantic-ui-less icon classes to App.jsx as a test case to see if the fonts are being rendered.
 
 ## Bug replication steps
+
+```
 npm install --save-dev vite@3.2.3
 npm clean-install
 npm run dev
+```
 
 ## Error messages
 Run the following to see the error messages:
 
+```
 npm install --save-dev vite@3.2.3
 npm clean-install
 npm run build
+```
 
+```
 ../assets/fonts/icons.eot referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
 ../assets/fonts/icons.eot?#iefix referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
 ../assets/fonts/outline-icons.eot referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
@@ -48,6 +54,7 @@ npm run build
 ../assets/fonts/brand-icons.ttf referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
 ../assets/fonts/outline-icons.svg#icons referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
 ../assets/fonts/brand-icons.svg#icons referenced in ../repro2/src/App.less didn't resolve at build time, it will remain unchanged to be resolved at runtime
+```
 
 ## Result
 The fonts icons, brand-icons and outline-icons does not appear in dist/assets and the icons in App.jsx `<i class="icon ..."></i>` will not render because it is missing the font.
